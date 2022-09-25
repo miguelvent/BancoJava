@@ -1,11 +1,13 @@
-package conexao;
+/* Author: Vent
+ */
 
-// Author:  Vent
+package conexao;
 
 import javax.swing.JOptionPane;
 import java.sql.*; 
 
 public class Conexao {
+    
     final private String driver = "com.mysql.jdbc.Driver"; 
     final private String url = "jdbc:mysql://localhost/clientes"; 
     final private String usuario = "root"; 
